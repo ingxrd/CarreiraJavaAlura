@@ -5,8 +5,6 @@
 
 
 
-
-
 function sortear() {
     let quantidadeDeNumeros = parseInt(document.querySelector('input').value); // seleciono o input de quantidade
     let numeroInicial = parseInt(document.querySelector('#de').value);

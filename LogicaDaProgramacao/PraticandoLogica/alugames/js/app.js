@@ -15,7 +15,7 @@ function alterarStatus(id){
         botaoAlugar.classList.remove('dashboard__item__button--return')
         botaoAlugar.textContent = 'Alugar'
     } else { 
-        imagemDisponibilidade.classList.add('dashboard__item__img');
+        imagemDisponibilidade.classList.add('dashboard__item__img--rented'); // CORRETO
         botaoAlugar.classList.add('dashboard__item__button--return');
         botaoAlugar.textContent = 'Devolver';
     }
